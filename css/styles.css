@@ -1,5 +1,5 @@
 /* Global Layout */
-* { 
+* {
   box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@ header,
 }
 
 
-/* Font, Color, and Links 
+/* Font, Color, and Links
 ************************/
 
 
@@ -26,7 +26,7 @@ body {
 	background-color: lightgreen;
 
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -71,7 +71,7 @@ a {
 
 
 p {
-	line-height: 1.4em; 
+	line-height: 1.4em;
 	font-weight: 300;
 }
 
@@ -120,7 +120,7 @@ li {
 }
 
 
-/* Page Structure 
+/* Page Structure
 *****************/
 
 
@@ -148,7 +148,7 @@ ul {
 }
 
 .nav a {
-	
+
 	margin-bottom: 5px;
 	padding: 10px 0;
 }
@@ -210,7 +210,7 @@ header p {
 /* Contact */
 
 .contact h3 {
-	padding: 45px 0 15px; 
+	padding: 45px 0 15px;
 }
 
 .contact p {
@@ -243,7 +243,7 @@ header p {
 
 .footer {
 	height: 75px;
-	padding-top: 25px; 
+	padding-top: 25px;
 }
 
 .footer-link,
@@ -269,7 +269,7 @@ header p {
 
 
 
-/********* Media Queries 
+/********* Media Queries
 ***********************/
 
 @media screen and (min-width: 768px) {
@@ -304,7 +304,7 @@ header p {
 	.wrap {
 		max-width: 768px;
 		margin: 0 30px;
-	}	
+	}
 
 	/* 768px: Navigation */
 
@@ -319,7 +319,7 @@ header p {
 	.nav li:nth-child(1n+3) {
 		margin-left: 40px;
 	}
-	
+
 	/* 768px: Header */
 
 		header #profile-img {
@@ -370,7 +370,7 @@ header p {
 	}
 
 	.footer-link {
-		padding-left: 30px; 
+		padding-left: 30px;
 	}
 
 	#mobile_link {
@@ -390,7 +390,7 @@ header p {
 @media screen and (min-width: 1024px) {
 
 	/* 1024px: FlexBox */
-	
+
 	.nav {
 		display: flex;
 		flex-direction: row;
@@ -425,7 +425,7 @@ header p {
 	}
 
 	/* 1024px: Header */
-	
+
 	header #profile_img {
 		width: 370px;
 		height: 100%;
