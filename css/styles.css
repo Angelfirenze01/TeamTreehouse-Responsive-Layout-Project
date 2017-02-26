@@ -45,7 +45,7 @@ a {
 	color: #7f7f7f;
 }
 
-#profile-img {
+#profile_img {
 	border: solid 8px #d8f2d8;
 }
 
@@ -164,7 +164,7 @@ header p {
 	margin-top: 20px;
 }
 
-#profile-img {
+#profile_img {
 	display: block;
 	width: 200px;
 	height: 125px;
@@ -322,7 +322,7 @@ header p {
 
 	/* 768px: Header */
 
-		header #profile-img {
+		header #profile_img {
 			width: 290px;
 			height: 100%
 		}
